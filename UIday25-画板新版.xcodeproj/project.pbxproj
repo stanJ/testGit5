@@ -14,6 +14,7 @@
 		18DBEC751BA3F9CB00DED80A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBEC741BA3F9CB00DED80A /* Images.xcassets */; };
 		18DBEC781BA3F9CB00DED80A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DBEC761BA3F9CB00DED80A /* LaunchScreen.xib */; };
 		18DBEC841BA3F9CB00DED80A /* UIday25_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC831BA3F9CB00DED80A /* UIday25_____Tests.m */; };
+		18DBEC8F1BA3FB0200DED80A /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC8E1BA3FB0200DED80A /* TouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18DBEC7D1BA3F9CB00DED80A /* UIday25-画板新版Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIday25-画板新版Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DBEC821BA3F9CB00DED80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DBEC831BA3F9CB00DED80A /* UIday25_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIday25_____Tests.m"; sourceTree = "<group>"; };
+		18DBEC8D1BA3FB0200DED80A /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		18DBEC8E1BA3FB0200DED80A /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				18DBEC6E1BA3F9CB00DED80A /* ViewController.h */,
 				18DBEC6F1BA3F9CB00DED80A /* ViewController.m */,
 				18DBEC711BA3F9CB00DED80A /* Main.storyboard */,
+				18DBEC8D1BA3FB0200DED80A /* TouchView.h */,
+				18DBEC8E1BA3FB0200DED80A /* TouchView.m */,
 				18DBEC741BA3F9CB00DED80A /* Images.xcassets */,
 				18DBEC761BA3F9CB00DED80A /* LaunchScreen.xib */,
 				18DBEC671BA3F9CB00DED80A /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBEC8F1BA3FB0200DED80A /* TouchView.m in Sources */,
 				18DBEC701BA3F9CB00DED80A /* ViewController.m in Sources */,
 				18DBEC6D1BA3F9CB00DED80A /* AppDelegate.m in Sources */,
 				18DBEC6A1BA3F9CB00DED80A /* main.m in Sources */,
